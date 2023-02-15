@@ -8,7 +8,7 @@ import Cookies from "js-cookie";
 
 export const loginAPI = (data, toast, navigate) => async (dispatch) => {
   try {
-    let response = await axios.post(" http://localhost:8080/user/login", data);
+    let response = await axios.post("https://vowel-web-bgr7.onrender.com/user/login", data);
     console.log(response);
     if (response.status === 201) {
       Cookies.set("jwttoken", response.data.jwttoken, {

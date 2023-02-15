@@ -51,7 +51,7 @@ function Checkout() {
     } else {
       //To get order id
       const { data } = await axios.post(
-        "http://localhost:8080/api/payment/order",
+        "https://vowel-web-bgr7.onrender.com/api/payment/order",
         {
           amount: ordersummry.total,
         }
@@ -68,22 +68,6 @@ function Checkout() {
         navigate
       );
 
-      // let res = await axios.post("http://localhost:8080/order", {
-      //   ordersummry,
-      //   cartItems,
-      //   shippingdata,
-      // });
-      // toast({
-      //   title: "Order placed successfully",
-      //   status: "success",
-      //   duration: 2000,
-      //   isClosable: true,
-      //   position: "top",
-      // });
-      // localStorage.removeItem("cartItems");
-      // localStorage.removeItem("ordersummry");
-      // dispatch(orderSuccess());
-      // navigate("/");
     }
   }
   return (

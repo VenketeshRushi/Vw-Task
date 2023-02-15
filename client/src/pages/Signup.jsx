@@ -37,7 +37,7 @@ export default function Signup() {
   const handleSubmit = async () => {
     try {
       let response = await axios.post(
-        "http://localhost:8080/user/signup",
+        "https://vowel-web-bgr7.onrender.com/user/signup",
         signUpcreds
       );
       toast({

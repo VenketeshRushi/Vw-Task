@@ -31,7 +31,7 @@ export const initPayment = (
     handler: async function (response) {
       try {
         const { data } = await axios.post(
-          "http://localhost:8080/api/payment/verify",
+          "https://vowel-web-bgr7.onrender.com/api/payment/verify",
           response
         );
 

@@ -27,7 +27,7 @@ function EditProduct() {
   async function getdata() {
     try {
       let res = await axios.get(
-        `http://localhost:8080/allproducts/single/:${param.id}`
+        `https://vowel-web-bgr7.onrender.com/allproducts/single/:${param.id}`
       );
       setdata(res.data);
       console.log(res);
@@ -47,7 +47,7 @@ function EditProduct() {
   async function handleSubmit() {
     try {
       let res = await axios.patch(
-        `http://localhost:8080/allproducts/update/:${param.id}`,
+        `https://vowel-web-bgr7.onrender.com/allproducts/update/:${param.id}`,
         productdata
       );
       console.log(res);

@@ -42,7 +42,7 @@ function Addnew() {
     } else {
       try {
         let res = await axios.post(
-          `http://localhost:8080/allproducts/add`,
+          `https://vowel-web-bgr7.onrender.com/allproducts/add`,
           productdata
         );
         console.log(res);

@@ -16,7 +16,7 @@ export const sendOrderRequest = async (shippingdata, orderId, response, ordersum
     };
 
     try {
-        await axios.post('http://localhost:8080/order', payload, { headers: { 'Authorization': `Bearer ${token}` } });
+        await axios.post('https://vowel-web-bgr7.onrender.com/order', payload, { headers: { 'Authorization': `Bearer ${token}` } });
 
         toast({
             title: 'Order placed successfully',

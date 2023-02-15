@@ -24,7 +24,7 @@ function Admin() {
   // This function is for getting all products data
   async function getdata() {
     try {
-      let res = await axios.get(`http://localhost:8080/allproducts`);
+      let res = await axios.get(`https://vowel-web-bgr7.onrender.com/allproducts`);
       setdata(res.data);
       console.log(res);
     } catch (error) {
@@ -37,7 +37,7 @@ function Admin() {
     console.log(id);
     try {
       let res = await axios.delete(
-        `http://localhost:8080/allproducts/delete/:${id}`
+        `https://vowel-web-bgr7.onrender.com/allproducts/delete/:${id}`
       );
       toast({
         title: "Product deleted Successfully",

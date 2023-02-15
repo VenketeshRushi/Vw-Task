@@ -14,7 +14,7 @@ import { carttotal, handlecartduplicate } from "../../Utils/getcartsummary";
 export const getdata = () => async (dispatch) => {
   try {
     dispatch({ type: GET_DATA_LOADING });
-    const res = await axios.get("http://localhost:8080/allproducts");
+    const res = await axios.get("https://vowel-web-bgr7.onrender.com/allproducts");
     dispatch({ type: GET_DATA_SUCCESS, payload: res.data });
   } catch (err) {
     console.log(err);
