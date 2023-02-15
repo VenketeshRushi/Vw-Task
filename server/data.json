@@ -1,0 +1,26 @@
+[
+  {
+    "title": "WOMEN'S SHOES COLLECTION",
+    "gender": "women",
+    "img": 
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/e04a03c2-d7b0-4505-9e63-0625a6a0b52b/air-zoom-terra-kiger-7-trail-running-shoes-qPmVtm.png",
+      "price":5000
+      
+  },
+  {
+    "title": "MEN'S SHOES COLLECTION",
+    "gender": "men",
+    "img": 
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/49fe6801-4b04-4d0a-85a6-4603309a4759/air-zoom-maxfly-more-uptempo-athletics-sprinting-spikes-rJlb4d.png",
+      "price":5000
+    
+  },
+  {
+    "title": "KID'S SHOES COLLECTION",
+    "gender": "kids",
+    "img": 
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/60b481c7-6d94-4ff1-9136-1ab90d66680f/flex-runner-2-older-road-running-shoes-RJPdh4.png",
+      "price":5000
+
+  }
+]
